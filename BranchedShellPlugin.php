@@ -7,7 +7,7 @@
  * @link         https://www.phptesting.org/
  */
 
-namespace PHPCI\Plugins;
+namespace PHPCI\Plugin;
 
 use PHPCI\Plugin;
 use PHPCI\Builder;
