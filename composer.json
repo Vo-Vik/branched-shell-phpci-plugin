@@ -6,7 +6,7 @@
 
     "extra": {
         "phpci": {
-            "pluginNamespace": "PHPCI\\Plugins\\",
+            "pluginNamespace": "PHPCI\\Plugin\\",
             "suppliedPlugins": [
                 {"name": "BranchedShell", "class": "BranchedShellPlugin"}
             ]
