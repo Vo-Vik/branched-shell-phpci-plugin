@@ -1,5 +1,5 @@
 {
-    "name"             : "Vo-Vik/example-phpci-plugin",
+    "name"             : "Vo-Vik/branched-shell-phpci-plugin",
     "description"      : "",
     "minimum-stability": "stable",
     "type"             : "library",
