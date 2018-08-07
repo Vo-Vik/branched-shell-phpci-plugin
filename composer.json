@@ -1,14 +1,14 @@
 {
-    "name"             : "meadsteve/example-phpci-plugin",
+    "name"             : "Vo-Vik/example-phpci-plugin",
     "description"      : "",
     "minimum-stability": "stable",
     "type"             : "library",
 
     "extra": {
         "phpci": {
-            "pluginNamespace": "meadsteve\\PhpciPlugins\\",
+            "pluginNamespace": "Vo-Vik\\PhpciPlugins\\",
             "suppliedPlugins": [
-                {"name": "Example", "class": "ExamplePlugin"}
+                {"name": "BranchedShell", "class": "BranchedShellPlugin"}
             ]
         }
     }
