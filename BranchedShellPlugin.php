@@ -7,14 +7,14 @@
  * @link         https://www.phptesting.org/
  */
 
-namespace PHPCI\Plugin;
+namespace Vo_Vik\PHPCI\Plugin;
 
 use PHPCI\Plugin;
 use PHPCI\Builder;
 use PHPCI\Helper\Lang;
 use PHPCI\Model\Build;
 
-class BranchedShellPlugin implements Plugin
+class BranchedShell implements Plugin
 {
     /**
      * @var \PHPCI\Builder
