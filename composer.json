@@ -14,7 +14,7 @@
     },
     "autoload": {
         "classmap": [
-            "BranchedShellPlugin.php",
+            "BranchedShellPlugin.php"
         ]
     }
 }
