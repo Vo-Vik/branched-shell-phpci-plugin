@@ -13,8 +13,8 @@
         }
     },
     "autoload": {
-        "classmap": [
-            "BranchedShellPlugin.php"
-        ]
+        "psr-4": {
+            "Vo_Vik\\PHPCI\\Plugin\\":"src"
+        }
     }
 }
