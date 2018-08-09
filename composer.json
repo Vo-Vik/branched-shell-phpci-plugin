@@ -8,7 +8,7 @@
         "phpci": {
             "pluginNamespace": "PHPCI\\Plugin\\",
             "suppliedPlugins": [
-                {"name": "BranchedShell", "class": "BranchedShellPlugin"}
+                {"name": "BranchedShellPlugin", "class": "BranchedShellPlugin"}
             ]
         }
     },
