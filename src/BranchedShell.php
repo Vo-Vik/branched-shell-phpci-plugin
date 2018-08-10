@@ -7,7 +7,7 @@
  * @link         https://www.phptesting.org/
  */
 
-namespace Vo_Vik\PHPCI\Plugin;
+namespace VoVik\PHPCI\Plugin;
 
 use PHPCI\Plugin;
 use PHPCI\Builder;
