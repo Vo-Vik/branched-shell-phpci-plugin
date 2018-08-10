@@ -61,7 +61,8 @@ class BranchedShell implements Plugin
      */
     public function execute()
     {
-        if (!defined('ENABLE_SHELL_PLUGIN') || !ENABLE_SHELL_PLUGIN) {
+        if (!defined('ENABLE_SHELL_FOR_BRANCHES') || !is_array(ENABLE_SHELL_PLUGIN) ||
+           !in_array($this->build->getBranch(), ENABLE_SHELL_PLUGIN)) {
             throw new \Exception(Lang::get('shell_not_enabled'));
         }
         $success = true;
