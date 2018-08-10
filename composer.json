@@ -6,7 +6,7 @@
 
     "extra": {
         "phpci": {
-            "pluginNamespace": "Vo_Vik\\PHPCI\\Plugin\\",
+            "pluginNamespace": "VoVik\\PHPCI\\Plugin\\",
             "suppliedPlugins": [
                 {"name": "BranchedShell", "class": "BranchedShell"}
             ]
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Vo_Vik\\PHPCI\\Plugin\\":"src"
+            "VoVik\\PHPCI\\Plugin\\":"src"
         }
     }
 }
